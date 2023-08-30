@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/booking.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400;10..48,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Booking</title>
+  </head>
+  <body>
+    <header class="header">
+      <ul class="header_list">
+        <a class="link" href="../index.html">
+          <li>INICIO</li>
+        </a>
+      </ul>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero_image"></div>
+        <h1 class="booking_title">RESERVA</h1>
+      </section>
+      <section class="booking_form">
+        <section>
+          <h2 class="booking_subtitle">
+            RESERVA EN UNO DE LOS CINCO RESTAURANTES QUE TENEMOS EN LA CIUDAD
+          </h2>
+        </section>
+        <form action="" class="form">
+          <label class="label" for="select"
+            >¿A que restaurante vas a venir?</label
+          >
+          <select
+            name="restaurant"
+            id="restaurant"
+            class="booking_input js_select"
+          >
+            <option value="" hidden selected>Seleccionar</option>
+            <option value="Olimpo Gastronómico">Olimpo Gastronómico</option>
+            <option value="Vino e Sapori">Vino e Sapori</option>
+            <option value="Sumo Sabor">Sumo Sabor</option>
+            <option value="English Rose Tea Room">English Rose Tea Room</option>
+            <option value="Yankee Diner">Yankee Diner</option>
+          </select>
+          <label class="label" for="date">¿Cuando nos vas a visitar?</label>
+          <input
+            type="date"
+            name="date"
+            id="date"
+            class="booking_input js_input_date"
+          />
+          <label class="label" for="time">¿A que hora vais a venir?</label>
+          <input type="time" class="booking_input js_input_time" />
+          <label class="label" for="text">¿Cuantos vais a ser?</label>
+          <input
+            type="text"
+            class="booking_input js_input_text"
+            placeholder="Indica el número de comensales"
+          />
+          <div class="button_cell">
+            <button class="booking_button js_booking_button">RESERVAR</button>
+          </div>
+          <p class="booking_text js_booking_text"></p>
+        </form>
+      </section>
+      <div class="border"></div>
+      <section class="sign_in--form">
+        <section>
+          <h2 class="sign_in--title">
+            RESGÍSTRATE EN NUESTRA WEB PARA CUANDO VENGAS A REPETIR
+          </h2>
+        </section>
+        <form action="" class="form2">
+          <label class="label" for="text">Nombre</label>
+          <input
+            type="text"
+            placeholder="Nombre y Apellidos"
+            class="sign_in--input"
+          />
+          <label class="label" for="email">Email</label>
+          <input
+            type="email"
+            placeholder="ejemplo@ejemplo.com"
+            class="sign_in--input"
+          />
+          <label class="label" for="tel">Teléfono</label>
+          <input type="tel" placeholder="666-66-66-66" class="sign_in--input" />
+          <button class="send_button">ENVIAR</button>
+        </form>
+      </section>
+    </main>
+  </body>
+  <script src="../js/booking.js"></script>
+</html>
