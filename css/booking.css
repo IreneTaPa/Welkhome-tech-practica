@@ -3,14 +3,11 @@
     padding: 0;
     margin: 0;
 }  
-.header {
-    height: fit-content;
-}
 
 .header_list {
     display: flex;
-    list-style: none;
     justify-content: space-evenly;
+    list-style: none;
     padding-top: 15px;
     padding-bottom: 15px;
     border-top: 2px solid rgb(92, 88, 88);
