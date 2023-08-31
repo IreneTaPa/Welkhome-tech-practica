@@ -61,6 +61,8 @@
           <label class="label" for="text">¿Cuantos vais a ser?</label>
           <input
             type="number"
+            min="1"
+            max="10"
             class="booking_input js_input_text"
             placeholder="Indica el número de comensales"
           />
@@ -92,7 +94,9 @@
           />
           <label class="label" for="tel">Teléfono</label>
           <input type="tel" placeholder="666-66-66-66" class="sign_in--input" />
-          <button class="send_button">ENVIAR</button>
+          <div class="btn_container">
+            <button class="send_button">ENVIAR</button>
+          </div>
         </form>
       </section>
     </main>
