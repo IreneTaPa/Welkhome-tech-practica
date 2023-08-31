@@ -196,8 +196,8 @@ li:hover {
         }
     
     .button_cell {
-         justify-content: flex-end;
-          padding-right: 50px;
+        justify-content: flex-end;
+        padding-right: 50px;
     }
    .border {
         width: 950px;
